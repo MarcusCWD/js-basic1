@@ -8,12 +8,12 @@ function func1(arg1, arg2){  //multiply var
 }
 
 function dist(spd, time){   //get distance
-    distance = spd * time
+    let distance = spd * time
     return distance
 }
 
-function peri(l, b){        //get perimeter
-    perimeter = l+l+b+b
+function peri(len, hei){        //get perimeter
+    let perimeter = len+len+hei+hei
     return perimeter
 }
 
