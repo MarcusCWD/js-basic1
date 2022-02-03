@@ -80,3 +80,15 @@ let o2 = o1;  // we're not making an exact copy of the object
 o1.count = 15;
 console.log('o1.count =>', o1.count);
 console.log('o2.count =>', o2.count);
+
+// how do we know if a property exists in an object?
+let food = {
+    "a":"apple pie",
+    "b":"bak gua",
+    "c":"cheese cake",
+    "r":'roti prata',
+    'p':'pineapple tart'
+}
+console.log(`'a' in food =>`,'a' in food);
+console.log(`'d' in food =>`, 'd' in food);
+console.log(` food.hasOwnProperty('p')=>`, food.hasOwnProperty('p'));
