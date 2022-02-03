@@ -29,6 +29,7 @@ let student = {
         'subject name':'Computing 3',
         'grade': 75
       }
+    
     ]
 }
 //Q1
