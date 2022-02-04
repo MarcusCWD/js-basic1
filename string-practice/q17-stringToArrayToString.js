@@ -8,7 +8,7 @@ function func(){
     let newArray = []
     // a,e,i,o,u
     //"chicken"
-    for (let i = 0; i < array.length; i++){
+    for (let i = 0; i < array.length; i++){ // for (let i of array)
       if (
       array[i] == 'a'|| 
       array[i] == 'e' ||
