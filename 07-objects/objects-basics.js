@@ -18,10 +18,13 @@ console.log('fruits.a =>', fruits.a);
 
 // to use the dot notation, the property name must be a valid variable name in JavaScript
 let student = {
-    'first name': 'John'
+    'first name': 'John',
+    'last-name' : 'Neo'
 }
 // console.log(student.first name); // => error! because the property name is not a valid variable name
 console.log(`student['first name'] =>`, student['first name']);
+// console.log(student.last-name); // => error! because the property name is not a valid variable name
+console.log(`student['last-name'] =>`, student['last-name']);
 
 // property names are always strings
 let recipe = {
