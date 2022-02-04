@@ -35,7 +35,7 @@ let spaceship = {
     speed: 10,
     calculateDistanceTravelled: function(time){
         console.log("attempting to calculate distance travelled");
-        return speed * time;
+        // return speed * time;
     }
 }
 

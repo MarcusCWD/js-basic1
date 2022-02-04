@@ -30,7 +30,10 @@ let student = {
         'grade': 75
       }
     
-    ]
+    ],
+    nameOfStudent : function(){
+      return this.firstName +" "+ this.lastName + " "+this.contact.email
+    }
 }
 //Q1
 console.log(student["firstName"], " " , student["lastName"])
@@ -49,3 +52,6 @@ console.log(student)
 //Q6
 student.classes.push = 'Computing 104'
 console.log(student)
+
+//Q9
+console.log(student.nameOfStudent())
