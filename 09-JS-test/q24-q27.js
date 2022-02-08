@@ -25,17 +25,36 @@ let sales =[
       'dealAmount': 1200
     },
    ]
+//--------------------------------------------------
+  //  sales[4].transactionNo = 1500
+  //  console.log(sales)
 
-   sales[4].transactionNo = 1500
-   console.log(sales)
+  //  function findByTransaction(trans){
 
-   function findByTransaction(trans){
+  //       for (let i = 0; i < sales.length; i++){
 
-        for (let i = 0; i <= sales.length; i++){
-            if(trans == (sales[i].transactionNo)){
-                return sales[i].salesperson
-            }
-        }
-   }
+  //           console.log(sales[i].transactionNo)
+  //           if(trans == (sales[i].transactionNo)){
+  //               return sales[i].salesperson
+  //           }
+  //       }
+  //  }
 
-   console.log(findByTransaction(1210))
+  //  console.log(findByTransaction(1210))
+
+
+  //--------------------------------------------------
+//   for (let i = 0; i < sales.length; i++){
+
+//     console.log(sales[i].salesperson + " " + "$" +  sales[i].dealAmount + " " + sales[i].transactionNo)
+    
+// }
+//----------------------------------------------------
+let storeValue = []
+for (let i = 0; i < sales.length; i++){
+  storeValue.push(sales[i].dealAmount)
+}
+
+let x = storeValue.sort()
+console.log(x)
+
